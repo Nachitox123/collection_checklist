@@ -1,4 +1,4 @@
-/* import 'package:cached_network_image/cached_network_image.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:page_transition/page_transition.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
@@ -381,7 +381,7 @@ class CollectionSummary extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: Colors.white,
                 ),
-                child: const Column(
+                child: Column(
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -504,7 +504,7 @@ class _CollectionElementState extends State<CollectionElement> {
                   fit: BoxFit.cover,
                 ),
               ),
-              const Column(
+              Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Text(
@@ -560,9 +560,9 @@ class _CollectionElementState extends State<CollectionElement> {
   }
 }
 
- */
 
-import 'package:flutter/foundation.dart';
+
+/* import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -664,3 +664,4 @@ class Page2 extends StatelessWidget {
     );
   }
 }
+ */

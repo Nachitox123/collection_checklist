@@ -1,0 +1,10 @@
+^C:\DEV\PROJECTS\FLUTTER\COLLECTION_CHECKLIST\BUILD\WINDOWS\CMAKEFILES\6B16B02D38402AF7AE04B108459B2C2F\GENERATE.STAMP.RULE
+setlocal
+"C:\Dev\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Dev/Projects/flutter/collection_checklist/windows -BC:/Dev/Projects/flutter/collection_checklist/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Dev/Projects/flutter/collection_checklist/build/windows/collection_checklist.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

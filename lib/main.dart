@@ -8,7 +8,7 @@ import '/utilities/utilities.dart';
 import '/pages/pages.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       title: 'My Collections',
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => HomePage(),
-        '/collection': (context) => CollectionPage(),
+        '/': (context) => const HomePage(),
+        '/collection': (context) => const CollectionPage(),
       },
     );
   }
